@@ -1,0 +1,14 @@
+{
+    "type": "LiquidRouter",
+    "name": "Armored Liquid Router",
+	"description": "Stronger than the standard Liquid Router.",
+    "category": "liquid",
+    "health": 200,
+    "liquidCapacity": 40,
+    "requirements": [
+        {"item": "graphite", "amount": 4},
+        {"item": "metaglass", "amount": 2},
+        {"item": "thorium", "amount": 3}
+    ],
+    "research": "liquid-router"
+}

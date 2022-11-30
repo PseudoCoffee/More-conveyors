@@ -1,0 +1,13 @@
+{
+	"type": "Unloader",
+    "name": "Thorium Unloader",
+	"description": "Unloads the selected item from nearby blocks. Fast enough for a thorium conveyor.",
+    "category": "effect",
+    "health": 95,
+    "speed": 2.7,
+    "requirements": [
+        {"item": "silicon", "amount": 50},
+        {"item": "thorium", "amount": 75}
+    ],
+    "research": "unloader"
+}

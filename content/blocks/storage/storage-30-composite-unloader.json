@@ -1,0 +1,12 @@
+{
+	"type": "Unloader",
+    "name": "Composite Unloader",
+	"description": "Unloads the selected item from nearby blocks. Fast enough for a Composite Conveyor.",
+    "category": "effect",
+    "health": 185,
+    "speed": 0.5,
+    "requirements": [
+        {"item": "item-20-composite-matter", "amount": 20}
+    ],
+    "research": "storage-25-surge-alloy-unloader"
+}

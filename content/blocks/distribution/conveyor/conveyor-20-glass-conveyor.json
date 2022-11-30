@@ -1,0 +1,14 @@
+{
+    "type": "Conveyor",
+    "name": "Glass Conveyor",
+	"description": "Faster than a Thorium Conveyor but has very little health.",
+    "category": "distribution",
+    "health": 10,
+    "speed": 0.24,
+    "displayedSpeed": 33,
+    "requirements": [
+        {"item": "lead", "amount": 2},
+        {"item": "metaglass", "amount": 1}
+    ],
+    "research": "conveyor-10-thorium-conveyor"
+}

@@ -1,0 +1,24 @@
+{
+    "type": "RepairPoint",
+    "name": "Advanced Repair Point",
+	"description": "Improved version of the repair point.",
+	"category": "units",
+    "size": 2,
+    "repairSpeed": 5,
+    "repairRadius": 160,
+    "powerUse": 7,
+    "liquidCapacity": 15,
+	"consumes": {
+		"liquid": {
+			"liquid": "cryofluid",
+			"amount": 0.125
+		}
+	},
+    "requirements": [
+        {"item": "titanium", "amount": 50},
+        {"item": "silicon", "amount": 50},
+        {"item": "thorium", "amount": 20},
+        {"item": "plastanium", "amount": 75}
+    ],
+    "research": "repair-point"
+}

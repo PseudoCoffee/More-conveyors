@@ -1,0 +1,21 @@
+{
+    "type": "LiquidBridge",
+    "name": "Armored Bridge Conduit",
+	"description": "Stronger and longer reach than the standard Bridge Conduit.",
+    "category": "liquid",
+    "health": 200,
+    "range": 18,
+    "canOverDrive": false,
+    "hasPower": true,
+	"consumes": {
+		"power": 0.45
+	},
+    "requirements": [
+        {"item": "metaglass", "amount": 20},
+        {"item": "titanium", "amount": 10},
+        {"item": "silicon", "amount": 7},
+        {"item": "phase-fabric", "amount": 5},
+        {"item": "thorium", "amount": 15}
+    ],
+    "research": "phase-conduit"
+}

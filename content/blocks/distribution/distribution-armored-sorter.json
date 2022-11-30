@@ -1,0 +1,14 @@
+{
+    "type": "Sorter",
+    "name": "Armored Sorter",
+	"description": "Stronger than the standard Sorter.",
+    "category": "distribution",
+    "health": 200,
+    "buildCostMultiplier": 3,
+    "requirements": [
+        {"item": "copper", "amount": 2},
+        {"item": "lead", "amount": 2},
+        {"item": "thorium", "amount": 2}
+    ],
+    "research": "sorter"
+}

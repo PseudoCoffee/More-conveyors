@@ -1,0 +1,15 @@
+{
+	"type": "StorageBlock",
+    "name": "Thorium Vault",
+	"description": "Stores a huge amount of items of each type. Contents can be retrieved with an unloader.",
+    "category": "effect",
+    "health": 700,
+    "itemCapacity": 3000,
+    "size": 3,
+	"hasItems": true,
+    "requirements": [
+        {"item": "titanium", "amount": 200},
+        {"item": "thorium", "amount": 375}
+    ],
+    "research": "vault"
+}

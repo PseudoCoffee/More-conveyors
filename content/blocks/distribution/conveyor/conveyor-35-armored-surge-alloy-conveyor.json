@@ -1,0 +1,14 @@
+{
+    "type": "ArmoredConveyor",
+    "name": "Armored Surge Alloy Conveyor",
+	"description": "Faster than a Glass Conveyor. Does not accept inputs from the sides.",
+    "category": "distribution",
+    "health": 300,
+    "speed": 0.32,
+    "displayedSpeed": 44,
+    "requirements": [
+        {"item": "titanium", "amount": 5},
+        {"item": "surge-alloy", "amount": 3}
+    ],
+    "research": "conveyor-30-surge-alloy-conveyor"
+}

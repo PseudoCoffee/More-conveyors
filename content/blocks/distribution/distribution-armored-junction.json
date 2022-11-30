@@ -1,0 +1,15 @@
+{
+    "type": "Junction",
+    "name": "Armored Junction",
+	"description": "Stronger and faster than the standard Junction.",
+    "category": "distribution",
+    "health": 150,
+    "buildCostMultiplier": 6,
+    "speed": 24,
+    "capacity": 12,
+    "requirements": [
+        {"item": "copper", "amount": 2},
+        {"item": "thorium", "amount": 2}
+    ],
+    "research": "junction"
+}

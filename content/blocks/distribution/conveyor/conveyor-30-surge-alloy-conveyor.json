@@ -1,0 +1,14 @@
+{
+    "type": "Conveyor",
+    "name": "Surge Alloy Conveyor",
+	"description": "Faster than a Glass Conveyor.",
+    "category": "distribution",
+    "health": 130,
+    "speed": 0.34,
+    "displayedSpeed": 44,
+    "requirements": [
+        {"item": "titanium", "amount": 1},
+        {"item": "surge-alloy", "amount": 1}
+    ],
+    "research": "conveyor-20-glass-conveyor"
+}

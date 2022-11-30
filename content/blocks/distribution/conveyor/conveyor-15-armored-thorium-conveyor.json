@@ -1,0 +1,15 @@
+{
+    "type": "ArmoredConveyor",
+    "name": "Armored Thorium Conveyor",
+	"description": "Faster than a Titanium Conveyor. Does not accept inputs from the sides.",
+    "category": "distribution",
+    "health": 250,
+    "speed": 0.16,
+    "displayedSpeed": 22,
+    "requirements": [
+        {"item": "graphite", "amount": 2},
+        {"item": "titanium", "amount": 3},
+        {"item": "thorium", "amount": 5}
+    ],
+    "research": "conveyor-10-thorium-conveyor"
+}

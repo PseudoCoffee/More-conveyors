@@ -1,0 +1,13 @@
+{
+    "type": "Conveyor",
+    "name": "Composite Conveyor",
+	"description": "Fastest Conveyor available.",
+    "category": "distribution",
+    "health": 200,
+    "speed": 0.78,
+    "displayedSpeed": 88,
+    "requirements": [
+        {"item": "item-20-composite-matter", "amount": 1}
+    ],
+    "research": "conveyor-30-surge-alloy-conveyor"
+}

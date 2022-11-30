@@ -1,0 +1,15 @@
+{
+    "type": "OverflowGate",
+    "name": "Armored Underflow Gate",
+	"description": "Stronger than the standard Underflow Gate.",
+    "category": "distribution",
+    "health": 200,
+    "buildCostMultiplier": 3,
+    "invert": true,
+    "requirements": [
+        {"item": "copper", "amount": 4},
+        {"item": "lead", "amount": 2},
+        {"item": "thorium", "amount": 3}
+    ],
+    "research": "underflow-gate"
+}

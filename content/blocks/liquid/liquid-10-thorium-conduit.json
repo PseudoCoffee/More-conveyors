@@ -1,0 +1,15 @@
+{
+    "type": "Conduit",
+    "name": "Thorium Conduit",
+	"description": "Stronger than the Pulse Conduit.",
+    "category": "liquid",
+    "health": 140,
+    "liquidCapacity": 16,
+    "liquidPressure": 1.025,
+    "requirements": [
+        {"item": "graphite", "amount": 1},
+        {"item": "metaglass", "amount": 2},
+        {"item": "thorium", "amount": 2}
+    ],
+    "research": "pulse-conduit"
+}

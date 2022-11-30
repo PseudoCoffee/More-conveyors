@@ -1,0 +1,9 @@
+{
+    "speed": 0.12,
+    "displayedSpeed": 16.5,
+    "requirements": [
+        {"item": "copper", "amount": 1},
+        {"item": "metaglass", "amount": 1},
+        {"item": "plastanium", "amount": 1}
+    ]
+}
