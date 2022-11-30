@@ -1,15 +1,24 @@
 {
-    "type": "LiquidExtendingBridge",
-    "name": "Armored Bridge Conduit",
-	"description": "Stronger and longer reach than the standard Bridge Conduit.",
-    "category": "liquid",
-    "health": 200,
-    "range": 6,
-    "hasPower": false,
-    "requirements": [
-        {"item": "graphite", "amount": 4},
-        {"item": "metaglass", "amount": 8},
-        {"item": "thorium", "amount": 5}
-    ],
-    "research": "bridge-conduit"
+  "type": "LiquidBridge",
+  "name": "Armored Bridge Conduit",
+  "description": "Stronger and longer reach than the standard Bridge Conduit.",
+  "category": "liquid",
+  "health": 200,
+  "range": 6,
+  "hasPower": false,
+  "requirements": [
+    {
+      "item": "graphite",
+      "amount": 4
+    },
+    {
+      "item": "metaglass",
+      "amount": 8
+    },
+    {
+      "item": "thorium",
+      "amount": 5
+    }
+  ],
+  "research": "bridge-conduit"
 }
