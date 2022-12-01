@@ -1,13 +1,20 @@
 {
-    "type": "ArmoredConveyor",
-    "name": "Armored Composite Conveyor",
+	"type": "ArmoredConveyor",
+	"name": "Armored Composite Conveyor",
 	"description": "Fastest Conveyor available. Does not accept inputs from the sides.",
-    "category": "distribution",
-    "health": 500,
-    "speed": 0.64,
-    "displayedSpeed": 88,
-    "requirements": [
-        {"item": "item-20-composite-matter", "amount": 4}
-    ],
-    "research": "conveyor-40-composite-conveyor"
+	"category": "distribution",
+	"health": 500,
+	"speed": 0.64,
+	"displayedSpeed": 88,
+	"requirements": [
+		{
+			"item": "copper",
+			"amount": 0
+		},
+		{
+			"item": "item-20-composite-matter",
+			"amount": 4
+		}
+	],
+	"research": "conveyor-40-composite-conveyor"
 }
