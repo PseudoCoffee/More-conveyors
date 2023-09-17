@@ -1,14 +1,19 @@
 {
-	"type": "Wall",
+	"type": "Battery",
     "name": "Large Thorium Battery",
-	"description": "Broken because of the newest update in mindustry :/",
+	"description": "Stores power in times of surplus energy. Outputs power in times of deficit. Higher capacity than a Large Battery.",
     "category": "power",
-    "health": 2147483647,
+    "health": 1440,
     "size": 3,
-    "buildVisibility": "hidden",
+    "consumes": {
+      "powerBuffered": "250000.0"
+      },
+    "BuildVisibility": "shown",
     "requirements": [
-        { "item": "copper", "amount": 0 },
-        { "item": "beryllium", "amount": 0 }
+        {"item": "lead", "amount": 40},
+        {"item": "titanium", "amount": 20},
+        {"item": "silicon", "amount": 20},
+        {"item": "thorium", "amount": 30}
     ],
     "research": "battery-large"
 }

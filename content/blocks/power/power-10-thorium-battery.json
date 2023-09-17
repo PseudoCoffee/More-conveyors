@@ -1,13 +1,17 @@
 {
-	"type": "Wall",
+	"type": "Battery",
     "name": "Thorium Battery",
-	"description": "Broken because of the newest update in mindustry :/",
+	"description": "Stores power in times of surplus energy. Outputs power in times of deficit. Higher capacity than a regular Battery.",
     "category": "power",
-    "health": 2147483647,
-    "buildVisibility": "hidden",
+    "health": 160,
+    "consumes": {
+      "powerBuffered": "12500.0"
+      },
+    "BuildVisibility": "shown",
     "requirements": [
-        { "item": "copper", "amount": 0 },
-        { "item": "beryllium", "amount": 0 }
+        {"item": "copper", "amount": 5},
+        {"item": "lead", "amount": 20},
+        {"item": "thorium", "amount": 15}
     ],
     "research": "battery"
 }
