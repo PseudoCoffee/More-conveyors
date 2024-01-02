@@ -2,6 +2,7 @@
 	"type": "Wall",
 	"name": "Composite Wall",
 	"description": "Protects structures from enemy projectiles.\nReflects most bullets upon impact.\nAbsorbs lasers and electric arcs. Blocks automatic power connections.\nPeriodically releases electric arcs upon contact.",
+	"envDisabled": 16,
 	"category": "defense",
 	"health": 1840,
 	"chanceDeflect": 10,
@@ -11,10 +12,6 @@
 	"lightningChance": 0.1,
 	"lightningDamage": 40,
 	"requirements": [
-		{
-			"item": "copper",
-			"amount": 0
-		},
 		{
 			"item": "item-20-composite-matter",
 			"amount": 3

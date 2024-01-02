@@ -2,14 +2,11 @@
 	"type": "Unloader",
 	"name": "Composite Unloader",
 	"description": "Unloads the selected item from nearby blocks. Fast enough for a Composite Conveyor.",
+	"envDisabled": 16,
 	"category": "effect",
 	"health": 185,
 	"speed": 0.5,
 	"requirements": [
-		{
-			"item": "copper",
-			"amount": 0
-		},
 		{
 			"item": "item-20-composite-matter",
 			"amount": 20

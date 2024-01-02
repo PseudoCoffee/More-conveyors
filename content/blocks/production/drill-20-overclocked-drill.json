@@ -1,7 +1,9 @@
 {
+  "type": "Drill",
   "name": "Overclocked Drill",
   "description": "Faster than Airblast Drill but requires constant cooling.\nCannot be boosted by liquids.",
-  "type": "Drill",
+  "envDisabled": 16,
+  "category": "production",
   "size": 4,
   "tier": 6,
   "drawRim": true,
@@ -22,12 +24,7 @@
       "amount": 0.16666666666666666666666666666666
     }
   },
-  "category": "production",
   "requirements": [
-		{
-			"item": "copper",
-			"amount": 0
-		},
     {
       "item": "graphite",
       "amount": 350

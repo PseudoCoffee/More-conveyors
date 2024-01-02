@@ -2,15 +2,12 @@
 	"type": "Conveyor",
 	"name": "Composite Conveyor",
 	"description": "Fastest Conveyor available.",
+	"envDisabled": 16,
 	"category": "distribution",
 	"health": 200,
 	"speed": 0.82,
 	"displayedSpeed": 88,
 	"requirements": [
-		{
-			"item": "copper",
-			"amount": 0
-		},
 		{
 			"item": "item-20-composite-matter",
 			"amount": 1

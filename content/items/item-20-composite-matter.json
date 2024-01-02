@@ -1,4 +1,5 @@
 {
+	"envDisabled": 16,
 	"type": "material",
 	"name": "Composite Matter",
 	"cost": 1.5,
