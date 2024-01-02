@@ -1,0 +1,42 @@
+{
+    "ammoTypes":
+    {
+        "surge-alloy": {
+            "type": "RailBulletType",
+            "shootEffect": "instShoot",
+            "hitEffect": "instHit",
+            "pierceEffect": "railHit",
+            "smokeEffect": "smokeCloud",
+            "pointEffect": "instTrail",
+            "despawnEffect": "instBomb",
+            "pointEffectSpace": 20,
+            "damage": 1350,
+            "buildingDamageMultiplier": 0.2,
+            "maxDamageFraction": 0.6,
+            "pierceDamageFactor": 1,
+            "length": 500,
+            "hitShake": 6,
+            "ammoMultiplier": 1
+        },
+        "item-20-composite-matter": {
+            "type": "RailBulletType",
+            "shootEffect": "instShoot",
+            "hitEffect": "instHit",
+            "pierceEffect": "railHit",
+            "smokeEffect": "smokeCloud",
+            "pointEffect": "instTrail",
+            "despawnEffect": "instBomb",
+            "pointEffectSpace": 20,
+            "damage": 5400,
+            "buildingDamageMultiplier": 0.4,
+            "splashDamageRadius": 30,
+            "maxDamageFraction": 0.6,
+            "pierceDamageFactor": 1,
+            "length": 500,
+            "hitShake": 6,
+            "ammoMultiplier": 10,
+            "reloadMultiplier": 0.5,
+            "status": "unmoving"
+        }
+    }
+}    
