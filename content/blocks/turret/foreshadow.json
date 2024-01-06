@@ -1,6 +1,5 @@
 {
-    "ammoTypes":
-    {
+    "ammoTypes": {
         "surge-alloy": {
             "type": "RailBulletType",
             "shootEffect": "instShoot",
@@ -19,24 +18,46 @@
             "ammoMultiplier": 1
         },
         "item-20-composite-matter": {
-            "type": "RailBulletType",
-            "shootEffect": "instShoot",
-            "hitEffect": "instHit",
-            "pierceEffect": "railHit",
-            "smokeEffect": "smokeCloud",
-            "pointEffect": "instTrail",
-            "despawnEffect": "instBomb",
-            "pointEffectSpace": 20,
+            "type": "MissileBullet",
+            "rangeChange": 100,
+            "lifetime": 75,
+            "speed": 8,
             "damage": 5400,
-            "buildingDamageMultiplier": 0.4,
-            "splashDamageRadius": 30,
-            "maxDamageFraction": 0.6,
+            "splashDamage": 1350,
+            "splashDamageRadius": 40,
+            "width": 12,
+            "height": 24,
+            "sprite": "missile-large",
+            "fragBullets": 15,
+            "fragBullet": {
+                "sprite": "missile",
+                "homingPower": 0.7,
+                "collidesGround": true,
+                "pierceDamageFactor": 1,
+                "pierce": true,
+                "pierceCap": 2,
+                "damage": 675,
+                "speed": 6,
+                "drag": 0.02,
+                "lifetime": 50,
+                "width": 5,
+                "height": 8,
+                "status": "freezing",
+                "statusDuration": 240
+            },
+            "lightningDamage": 675,
+            "lightning": 15,
+            "lightningLength": 30,
+            "maxDamageFraction": 1,
             "pierceDamageFactor": 1,
             "length": 500,
             "hitShake": 6,
             "ammoMultiplier": 10,
+            "buildingDamageMultiplier": 0.4,
             "reloadMultiplier": 0.5,
-            "status": "unmoving"
+            "homingPower": 0.1,
+            "status": "sapped",
+            "statusDuration": 240
         }
     }
-}    
+}
