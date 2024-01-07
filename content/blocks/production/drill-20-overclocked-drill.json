@@ -1,29 +1,29 @@
 {
-  "type": "Drill",
   "name": "Overclocked Drill",
   "description": "Faster than Airblast Drill but requires constant cooling.\nCannot be boosted by liquids.",
   "envDisabled": 16,
-  "category": "production",
+  "type": "Drill",
   "size": 4,
   "tier": 6,
   "drawRim": true,
-  "drillTime": 44,
+  "drillTime": 30,
   "updateEffect": "pulverizeRed",
-  "updateEffectChance" : 0.03,
+  "updateEffectChance": 0.03,
   "drillEffect": "mineHuge",
   "rotateSpeed": 12,
   "warmupSpeed": 0.005,
   "itemCapacity": 20,
-  "hardnessDrillMultiplier": 7,
+  "hardnessDrillMultiplier": 4.5,
   "liquidBoostIntensity": 1,
   "liquidCapacity": 5,
   "consumes": {
     "power": 6,
     "liquid": {
       "liquid": "cryofluid",
-      "amount": 0.16666666666666666666666666666666
+      "amount": 0.1
     }
   },
+  "category": "production",
   "requirements": [
     {
       "item": "graphite",
