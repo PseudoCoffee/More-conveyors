@@ -1,19 +1,19 @@
 {
     "type": "LiquidRouter",
     "name": "Armored Liquid Tank",
-    "description": "Stronger than the standard Liquid Tank.",
+    "description": "Stronger and higher capacity than the standard Liquid Tank.",
     "category": "liquid",
-    "health": 2500,
+    "health": 1000,
     "size": 3,
-    "liquidCapacity": 3000,
+    "liquidCapacity": 5400,
     "requirements": [
         {
             "item": "titanium",
-            "amount": 25
+            "amount": 30
         },
         {
             "item": "metaglass",
-            "amount": 25
+            "amount": 40
         },
         {
             "item": "thorium",
