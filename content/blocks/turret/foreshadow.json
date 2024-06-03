@@ -21,7 +21,7 @@
             "pierce": true,
             "pierceCap": 5,
             "type": "MissileBullet",
-            "hitEffect" :"instBomb",
+            "hitEffect": "instBomb",
             "pierceEffect": "instBomb",
             "rangeChange": 100,
             "lifetime": 14.8,

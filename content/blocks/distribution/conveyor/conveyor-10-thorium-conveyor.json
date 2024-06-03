@@ -1,15 +1,24 @@
 {
     "type": "Conveyor",
     "name": "Thorium Conveyor",
-	"description": "Faster than a Titanium Conveyor.",
+    "description": "Faster than a Titanium Conveyor.",
     "category": "distribution",
     "health": 95,
     "speed": 0.16,
     "displayedSpeed": 22,
     "requirements": [
-        {"item": "graphite", "amount": 1},
-        {"item": "titanium", "amount": 1},
-        {"item": "thorium", "amount": 1}
+        {
+            "item": "graphite",
+            "amount": 1
+        },
+        {
+            "item": "titanium",
+            "amount": 1
+        },
+        {
+            "item": "thorium",
+            "amount": 1
+        }
     ],
     "research": "titanium-conveyor"
 }

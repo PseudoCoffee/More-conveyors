@@ -1,15 +1,24 @@
 {
     "type": "ArmoredConduit",
     "name": "Armored Thorium Conduit",
-	"description": "Stronger than the Plated Conduit. Does not accept input from the sides. Does not leak.",
+    "description": "Stronger than the Plated Conduit. Does not accept input from the sides. Does not leak.",
     "category": "liquid",
     "health": 280,
     "liquidCapacity": 16,
     "liquidPressure": 1.025,
     "requirements": [
-        {"item": "graphite", "amount": 2},
-        {"item": "metaglass", "amount": 4},
-        {"item": "thorium", "amount": 3}
+        {
+            "item": "graphite",
+            "amount": 2
+        },
+        {
+            "item": "metaglass",
+            "amount": 4
+        },
+        {
+            "item": "thorium",
+            "amount": 3
+        }
     ],
     "research": "plated-conduit"
 }

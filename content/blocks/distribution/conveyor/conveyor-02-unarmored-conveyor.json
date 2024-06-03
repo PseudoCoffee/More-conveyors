@@ -1,14 +1,20 @@
 {
     "type": "Conveyor",
     "name": "Unarmored Conveyor",
-	"description": "Faster than the Titanium Conveyor.",
+    "description": "Faster than the Titanium Conveyor.",
     "category": "distribution",
     "health": 95,
     "speed": 0.12,
     "displayedSpeed": 16.5,
     "requirements": [
-        {"item": "graphite", "amount": 1},
-        {"item": "titanium", "amount": 1}
+        {
+            "item": "graphite",
+            "amount": 1
+        },
+        {
+            "item": "titanium",
+            "amount": 1
+        }
     ],
     "research": "titanium-conveyor"
 }

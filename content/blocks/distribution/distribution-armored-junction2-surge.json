@@ -1,15 +1,21 @@
 {
     "type": "Junction",
     "name": "Armored Surge Junction",
-	"description": "Stronger and faster than the Armored Junction.",
+    "description": "Stronger and faster than the Armored Junction.",
     "category": "distribution",
     "health": 225,
     "buildCostMultiplier": 6,
     "speed": 11,
     "capacity": 12,
     "requirements": [
-        {"item": "titanium", "amount": 2},
-        {"item": "surge-alloy", "amount": 2}
+        {
+            "item": "titanium",
+            "amount": 2
+        },
+        {
+            "item": "surge-alloy",
+            "amount": 2
+        }
     ],
     "research": "distribution-armored-junction"
 }

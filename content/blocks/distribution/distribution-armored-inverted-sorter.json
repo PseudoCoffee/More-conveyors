@@ -1,15 +1,24 @@
 {
     "type": "Sorter",
     "name": "Armored Inverted Sorter",
-	"description": "Stronger than the standard Inverted Sorter.",
+    "description": "Stronger than the standard Inverted Sorter.",
     "category": "distribution",
     "health": 200,
     "buildCostMultiplier": 3,
     "invert": true,
     "requirements": [
-        {"item": "copper", "amount": 2},
-        {"item": "lead", "amount": 2},
-        {"item": "thorium", "amount": 2}
+        {
+            "item": "copper",
+            "amount": 2
+        },
+        {
+            "item": "lead",
+            "amount": 2
+        },
+        {
+            "item": "thorium",
+            "amount": 2
+        }
     ],
     "research": "inverted-sorter"
 }

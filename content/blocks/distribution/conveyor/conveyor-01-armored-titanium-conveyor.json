@@ -1,15 +1,24 @@
 {
     "type": "ArmoredConveyor",
     "name": "Armored Titanium Conveyor",
-	"description": "Faster than a regular Conveyor. Does not accept inputs from the sides.",
+    "description": "Faster than a regular Conveyor. Does not accept inputs from the sides.",
     "category": "distribution",
     "health": 145,
     "speed": 0.08,
     "displayedSpeed": 11,
     "requirements": [
-        {"item": "copper", "amount": 3},
-        {"item": "lead", "amount": 3},
-        {"item": "titanium", "amount": 5}
+        {
+            "item": "copper",
+            "amount": 3
+        },
+        {
+            "item": "lead",
+            "amount": 3
+        },
+        {
+            "item": "titanium",
+            "amount": 5
+        }
     ],
     "research": "titanium-conveyor"
 }

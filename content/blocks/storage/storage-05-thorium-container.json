@@ -1,15 +1,21 @@
 {
-	"type": "StorageBlock",
+    "type": "StorageBlock",
     "name": "Thorium Container",
-	"description": "Stores a large amount of items of each type. Contents can be retrieved with an unloader.",
+    "description": "Stores a large amount of items of each type. Contents can be retrieved with an unloader.",
     "category": "effect",
     "health": 300,
     "itemCapacity": 900,
     "size": 2,
-	"hasItems": true,
+    "hasItems": true,
     "requirements": [
-        {"item": "titanium", "amount": 50},
-        {"item": "thorium", "amount": 100}
+        {
+            "item": "titanium",
+            "amount": 50
+        },
+        {
+            "item": "thorium",
+            "amount": 100
+        }
     ],
     "research": "container"
 }

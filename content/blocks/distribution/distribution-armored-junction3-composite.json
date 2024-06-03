@@ -1,15 +1,21 @@
 {
     "type": "Junction",
     "name": "Armored Composite Junction",
-	"description": "Stronger and faster than the Armored Surge Junction.",
+    "description": "Stronger and faster than the Armored Surge Junction.",
     "category": "distribution",
     "health": 600,
     "buildCostMultiplier": 6,
     "speed": 6,
     "capacity": 12,
     "requirements": [
-        {"item": "titanium", "amount": 2},
-        {"item": "item-20-composite-matter", "amount": 1}
+        {
+            "item": "titanium",
+            "amount": 2
+        },
+        {
+            "item": "item-20-composite-matter",
+            "amount": 1
+        }
     ],
     "research": "distribution-armored-junction2-surge"
 }

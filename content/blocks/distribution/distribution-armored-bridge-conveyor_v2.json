@@ -1,16 +1,25 @@
 {
     "type": "ItemBridge",
     "name": "Armored Bridge Conveyor",
-	"description": "Stronger, faster and longer reach than the standard Bridge Conveyor.",
+    "description": "Stronger, faster and longer reach than the standard Bridge Conveyor.",
     "category": "distribution",
     "health": 200,
     "range": 6,
     "hasPower": false,
     "bufferCapacity": 21,
     "requirements": [
-        {"item": "copper", "amount": 2},
-        {"item": "lead", "amount": 2},
-        {"item": "thorium", "amount": 2}
+        {
+            "item": "copper",
+            "amount": 2
+        },
+        {
+            "item": "lead",
+            "amount": 2
+        },
+        {
+            "item": "thorium",
+            "amount": 2
+        }
     ],
     "research": "bridge-conveyor"
 }

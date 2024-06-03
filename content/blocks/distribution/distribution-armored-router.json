@@ -1,12 +1,18 @@
 {
     "type": "Router",
     "name": "Armored Router",
-	"description": "Stronger and faster than the standard Router.",
+    "description": "Stronger and faster than the standard Router.",
     "category": "distribution",
     "health": 200,
     "requirements": [
-        {"item": "copper", "amount": 3},
-        {"item": "thorium", "amount": 3}
+        {
+            "item": "copper",
+            "amount": 3
+        },
+        {
+            "item": "thorium",
+            "amount": 3
+        }
     ],
     "research": "router"
 }

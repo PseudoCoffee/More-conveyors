@@ -1,14 +1,20 @@
 {
     "type": "ArmoredConveyor",
     "name": "Armored Copper Conveyor",
-	"description": "Same speed as the standard Conveyor. Does not accept inputs from the sides.",
+    "description": "Same speed as the standard Conveyor. Does not accept inputs from the sides.",
     "category": "distribution",
     "health": 100,
     "speed": 0.04,
     "displayedSpeed": 5.5,
     "requirements": [
-        {"item": "copper", "amount": 2},
-        {"item": "lead", "amount": 2}
+        {
+            "item": "copper",
+            "amount": 2
+        },
+        {
+            "item": "lead",
+            "amount": 2
+        }
     ],
     "research": "conveyor"
 }

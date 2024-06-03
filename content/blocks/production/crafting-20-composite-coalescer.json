@@ -16,7 +16,7 @@
             },
             {
                 "type": "DrawFlame",
-                "flameRadius":  6, 
+                "flameRadius": 6,
                 "flameRadiusIn": 3.8,
                 "flameRadiusScl": 10,
                 "flameRadiusMag": 4,

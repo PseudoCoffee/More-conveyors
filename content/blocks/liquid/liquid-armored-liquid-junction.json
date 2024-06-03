@@ -1,13 +1,22 @@
 {
     "type": "LiquidJunction",
     "name": "Armored Liquid Junction",
-	"description": "Stronger than the standard Liquid Junction.",
+    "description": "Stronger than the standard Liquid Junction.",
     "category": "liquid",
     "health": 200,
     "requirements": [
-        {"item": "graphite", "amount": 2},
-        {"item": "metaglass", "amount": 2},
-        {"item": "thorium", "amount": 3}
+        {
+            "item": "graphite",
+            "amount": 2
+        },
+        {
+            "item": "metaglass",
+            "amount": 2
+        },
+        {
+            "item": "thorium",
+            "amount": 3
+        }
     ],
     "research": "liquid-junction"
 }

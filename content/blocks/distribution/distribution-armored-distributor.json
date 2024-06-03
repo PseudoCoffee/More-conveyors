@@ -1,14 +1,23 @@
 {
     "type": "Router",
     "name": "Armored Distributor",
-	"description": "Stronger and faster than the standard Distributor.",
+    "description": "Stronger and faster than the standard Distributor.",
     "category": "distribution",
     "health": 800,
     "size": 2,
     "requirements": [
-        {"item": "copper", "amount": 4},
-        {"item": "lead", "amount": 4},
-        {"item": "thorium", "amount": 4}
+        {
+            "item": "copper",
+            "amount": 4
+        },
+        {
+            "item": "lead",
+            "amount": 4
+        },
+        {
+            "item": "thorium",
+            "amount": 4
+        }
     ],
     "research": "distributor"
 }
