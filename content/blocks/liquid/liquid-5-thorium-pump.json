@@ -1,0 +1,23 @@
+{
+    "type": "Pump",
+    "name": "Thorium Pump",
+    "description": "Stronger and faster than the Mechanical Pump.",
+    "category": "liquid",
+    "health": 80,
+    "pumpAmount": 0.16666666666666666666666666666667,
+    "requirements": [
+        {
+            "item": "copper",
+            "amount": 15
+        },
+        {
+            "item": "metaglass",
+            "amount": 10
+        },
+        {
+            "item": "thorium",
+            "amount": 10
+        }
+    ],
+    "research": "mechanical-pump"
+}

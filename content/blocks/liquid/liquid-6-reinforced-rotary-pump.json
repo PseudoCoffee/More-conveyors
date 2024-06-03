@@ -1,0 +1,36 @@
+{
+    "type": "Pump",
+    "name": "Reinforced Rotary Pump",
+    "description": "Stronger and faster than the standard Rotary Pump.",
+    "category": "liquid",
+    "health": 80,
+    "size": 2,
+    "pumpAmount": 0.33333333333333333333333333333333,
+    "liquidCapacity": 30,
+    "consumes": {
+        "power": 0.45
+    },
+    "requirements": [
+        {
+            "item": "copper",
+            "amount": 70
+        },
+        {
+            "item": "metaglass",
+            "amount": 50
+        },
+        {
+            "item": "titanium",
+            "amount": 35
+        },
+        {
+            "item": "silicon",
+            "amount": 20
+        },
+        {
+            "item": "thorium",
+            "amount": 25
+        }
+    ],
+    "research": "rotary-pump"
+}
