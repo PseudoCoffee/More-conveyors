@@ -3,7 +3,7 @@
     "name": "Thorium Container",
     "description": "Stores a large amount of items of each type. Contents can be retrieved with an unloader.",
     "category": "effect",
-    "health": 300,
+    "health": 440,
     "itemCapacity": 900,
     "size": 2,
     "hasItems": true,

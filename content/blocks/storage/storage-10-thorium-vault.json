@@ -3,7 +3,7 @@
     "name": "Thorium Vault",
     "description": "Stores a huge amount of items of each type. Contents can be retrieved with an unloader.",
     "category": "effect",
-    "health": 700,
+    "health": 990,
     "itemCapacity": 3000,
     "size": 3,
     "hasItems": true,
