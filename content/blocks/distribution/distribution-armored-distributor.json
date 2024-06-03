@@ -1,7 +1,7 @@
 {
     "type": "Router",
     "name": "Armored Distributor",
-    "description": "Stronger and faster than the standard Distributor.",
+    "description": "Stronger and faster than the standard Distributor.\nWarning! Item throughput limited by FPS.",
     "category": "distribution",
     "health": 800,
     "size": 2,

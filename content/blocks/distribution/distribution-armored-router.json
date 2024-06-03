@@ -1,7 +1,7 @@
 {
     "type": "Router",
     "name": "Armored Router",
-    "description": "Stronger and faster than the standard Router.",
+    "description": "Stronger and faster than the standard Router.\nWarning! Item throughput limited by FPS.",
     "category": "distribution",
     "health": 200,
     "requirements": [
