@@ -6,7 +6,7 @@
     "size": 4,
     "outputItem": {
         "item": "item-20-composite-matter",
-        "amount": 2
+        "amount": 4
     },
     "drawer": {
         "type": "DrawMulti",
@@ -27,7 +27,7 @@
     "hasPower": true,
     "hasItems": true,
     "itemCapacity": 20,
-    "craftTime": 80,
+    "craftTime": 150,
     "updateEffect": "smeltsmoke",
     "idleSound": "respawning",
     "idleSoundVolume": 0.5,
@@ -37,19 +37,19 @@
             "items": [
                 {
                     "item": "metaglass",
-                    "amount": 3
+                    "amount": 6
                 },
                 {
                     "item": "graphite",
-                    "amount": 3
+                    "amount": 6
                 },
                 {
                     "item": "thorium",
-                    "amount": 2
+                    "amount": 4
                 },
                 {
                     "item": "plastanium",
-                    "amount": 2
+                    "amount": 4
                 },
                 {
                     "item": "phase-fabric",
