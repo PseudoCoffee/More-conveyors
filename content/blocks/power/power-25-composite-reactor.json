@@ -1,0 +1,43 @@
+{
+	"type": "ImpactReactor",
+	"name": "Composite Reactor",
+	"description": "Creates massive amounts of power at peak efficiency. Requires a significant power input to kickstart the process. More efficient than the Impact Reactor.",
+	"category": "power",
+	"health": 1350,
+	"size": 4,
+	"powerProduction": 395,
+	"itemDuration": 150,
+	"ambientSoundVolume": 0.07,
+	"ambientSount": "pulse",
+	"consumes": {
+		"power": 70,
+		"liquids": {
+			"liquids": [
+				{
+					"liquid": "oil",
+					"amount": 0.25
+				},
+				{
+					"liquid": "slag",
+					"amount": 0.25
+				}
+			]
+		},
+		"items": {
+			"items": [
+				{
+					"item": "item-20-composite-matter",
+					"amount": 1
+				}
+			]
+		}
+	},
+	"BuildVisibility": "shown",
+	"requirements": [
+		{
+			"item": "item-20-composite-matter",
+			"amount": 75
+		}
+	],
+	"research": "impact-reactor"
+}

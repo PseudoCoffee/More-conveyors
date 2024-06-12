@@ -1,0 +1,56 @@
+{
+    "type": "Fracker",
+    "name": "Slag Extractor",
+    "description": "Explosively digs for slag while cooling the drill with cryofluid.",
+    "category": "production",
+    "size": 3,
+	"result": "slag",
+	"pumpAmount": 0.5,
+    "updateEffect": "pulverize",
+	"liquidCapacity": 30,
+	"attribute": "oil",
+	"baseEfficiency": 0.5,
+	"itemUseTime": 80,
+    "consumes": {
+        "power": 3.0,
+        "items": {
+            "items": [
+                {
+                    "item": "blast-compound",
+                    "amount": 1
+                }
+            ]
+        },
+		"liquids": {
+			"liquids": [
+				{
+					"liquid": "cryofluid",
+					"amount": 0.2
+				}
+			]
+		}
+    },
+    "requirements": [
+        {
+            "item": "copper",
+            "amount": 150
+        },
+        {
+            "item": "graphite",
+            "amount": 175
+        },
+        {
+            "item": "lead",
+            "amount": 115
+        },
+        {
+            "item": "thorium",
+            "amount": 115
+        },
+        {
+            "item": "silicon",
+            "amount": 75
+        }
+    ],
+    "research": "oil-extractor"
+}

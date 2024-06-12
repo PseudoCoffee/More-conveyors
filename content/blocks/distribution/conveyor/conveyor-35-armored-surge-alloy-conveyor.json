@@ -4,7 +4,7 @@
     "description": "Faster than a Glass Conveyor. Does not accept inputs from the sides.",
     "category": "distribution",
     "health": 300,
-    "speed": 0.32,
+    "speed": 0.34,
     "displayedSpeed": 44,
     "requirements": [
         {
