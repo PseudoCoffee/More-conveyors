@@ -4,7 +4,7 @@
     "description": "Stronger and faster than the Mechanical Pump.",
     "category": "liquid",
     "health": 80,
-    "pumpAmount": 0.16666666666666666666666666666667,
+    "pumpAmount": 0.1666667,
     "requirements": [
         {
             "item": "copper",

@@ -3,6 +3,6 @@
     "displayName": "More conveyors, conduits, batteries, storage and unloaders",
     "author": "Pseudo Coffee",
     "description": "New armored variants of vanilla distribution blocks.\n\nNew armored variants of vanilla liquid distribution blocks.\n\n1 new drill.\n\n1 new slag extractor\n\n5 new faster conveyor types.\n\n1 new liquid conduits type.\n\n3 new faster unloaders.\n\n2 new larger storage containers.\n\n3 new pumps.\n\n2 new larger liquid tanks.\n\n2 new batteries.\n\n1 new reactor\n\nNew ammo for foreshadow.\n\n1 new wall that combines the abilities of the Surge Wall, Plastanium Wall and Phase Wall.",
-    "version": "0.2.16",
+    "version": "0.2.17",
     "minGameVersion": 143
 }

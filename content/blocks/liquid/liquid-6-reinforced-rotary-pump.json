@@ -5,7 +5,7 @@
     "category": "liquid",
     "health": 80,
     "size": 2,
-    "pumpAmount": 0.33333333333333333333333333333333,
+    "pumpAmount": 0.333334,
     "liquidCapacity": 30,
     "consumes": {
         "power": 0.45

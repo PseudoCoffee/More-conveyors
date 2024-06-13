@@ -15,11 +15,11 @@
 			"liquids": [
 				{
 					"liquid": "oil",
-					"amount": 0.25
+					"amount": 0.4
 				},
 				{
 					"liquid": "slag",
-					"amount": 0.25
+					"amount": 0.4
 				}
 			]
 		},
@@ -36,7 +36,7 @@
 	"requirements": [
 		{
 			"item": "item-20-composite-matter",
-			"amount": 75
+			"amount": 750
 		}
 	],
 	"research": "impact-reactor"

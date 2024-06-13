@@ -1,11 +1,11 @@
 {
     "type": "Fracker",
     "name": "Slag Extractor",
-    "description": "Explosively digs for slag while cooling the drill with cryofluid.",
+    "description": "Explosively drills for slag while cooling the drill with cryofluid.",
     "category": "production",
     "size": 3,
 	"result": "slag",
-	"pumpAmount": 0.5,
+	"pumpAmount": 0.333334,
     "updateEffect": "pulverize",
 	"liquidCapacity": 30,
 	"attribute": "oil",
@@ -25,7 +25,7 @@
 			"liquids": [
 				{
 					"liquid": "cryofluid",
-					"amount": 0.2
+					"amount": 0.4
 				}
 			]
 		}
