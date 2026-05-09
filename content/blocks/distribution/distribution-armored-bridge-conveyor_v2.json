@@ -6,7 +6,7 @@
     "health": 200,
     "range": 6,
     "hasPower": false,
-    "bufferCapacity": 21,
+    "transportTime": 2.5,
     "requirements": [
         {
             "item": "copper",
